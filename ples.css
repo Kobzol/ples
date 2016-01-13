@@ -1,0 +1,596 @@
+/***DANCE UNTIL YOU'RE D.E.A.D!***/
+
+h1 {
+  font-family: HaginCapsMedium;
+  font-size: 32px;
+  color: white;
+  margin: auto;
+  padding: 30px 0px 50px 0px;
+  display: block;
+  text-align: center;
+  position: relative;
+  top: -5px;
+}
+
+.ples-popisek {
+  position: absolute;
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+#hlavniSal-podium {
+  left: 250px;
+  top: 20px;
+}
+
+#hlavniSal-parket {
+  left: 255px;
+  top: 200px;
+}
+
+#hlavniSal-stoly {
+  position: absolute;
+}
+
+#hudebniSal-klub {
+  left: 100px;
+  top: 800px;
+}
+
+.order-final {
+    font-size: 16px;
+    color: #000000;
+}
+
+.sedLabel {
+  position: absolute;
+  left: 630px;
+  width: 180px;
+  font-size: 12px;
+}
+
+#podminkyLabel {
+  top: 700px;
+  left: 0;
+}
+
+#podminkyText {
+  position: absolute;
+  top: 707px;
+  left: 190px;
+  font-size: 15px;
+  color: #FFFFFF;
+}
+
+.p1A {
+  position: absolute;
+  left: 7px;
+  top: 269px;
+  cursor: pointer;
+}
+
+.p2A {
+  position: absolute;
+  left: 7px;
+  top: 269px;
+  cursor: pointer;
+}
+
+#podminkyAccept {
+    position: absolute;
+    left: 27px;
+    top: 270px;
+    font-size: 16px;
+}
+
+#podminkyDiv {
+  background-color: #3954A5;
+  border: 2px solid #FFFFFF;
+  border-radius: 3px;
+  width: 500px;
+  color: #FFFFFF;
+  padding: 10px;
+  font-size: 12px;
+  display: none;
+  position: absolute;
+  z-index: 50;
+}
+
+.bublina {
+  left: 55px;
+  top: 0px;
+  position: absolute;
+}
+
+#faqContainer {
+  position: absolute;
+  right: 0px;
+  width: 390px;
+  height: 400px;
+  top: 120px;
+  font-size: 12px;
+  color: #FFFFFF;
+  font-family: Verdana;
+  line-height: 1.3;
+}
+
+#faqContainer a {
+  text-decoration: underline;
+  color: #FFFFFF;
+}
+
+#faqContainer a:hover {
+  color: #330000;
+}
+
+#sbLayout {
+  position: relative;
+  top: 120px;
+}
+
+#sbLayout a {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+#sbLayout a:hover {
+  color: #330000;
+}
+
+#diskuzeNadpis {
+  font-weight: bold;
+  color: #FFFFFF;
+  font-family: Verdana;
+  font-size: 14px;
+  margin-left: 5px;
+  margin-bottom: 15px;
+}
+
+#informaceL {
+  left: 0;
+  color: #330000;
+}
+
+#informaceR {
+  left: 200px;
+  color: #FFFFFF;
+}
+
+.informaceClass {
+  position: absolute;
+  top: 120px;
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+ul {
+  list-style: none;
+  list-style-type: none;
+}
+
+#dk_container_platba {
+  position: absolute;
+  left: 7px;
+  top: 220px;
+}
+
+#nojs {
+  border: 1px solid #FFFFFF;
+  background: #000;
+  color: #FFFFFF;
+  width: 15%;
+  height: 15%;
+  position: absolute;
+  left: 40%;
+  top: 40%;
+  padding: 10px;
+  z-index: 999;
+}
+
+#wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: black;
+  opacity: .8;
+  -moz-opacity: .8;
+  filter: alpha(opacity=80);
+  border: 1px solid #cecece;
+  z-index: 999;
+}
+
+#klubBack {
+  left: 100px;
+  top: 450px;
+}
+
+#klub {
+  position: relative;
+  top: 550px;
+  left: 0px;
+  height: 620px;
+}
+
+#klub-stoly {
+    position: absolute;
+    top: 590px;
+    left: 50px;
+}
+
+#klubCount {
+  font-size: 25px;
+  position: absolute;
+  top: -50px;
+  left: 197px;
+  font-family: MyriadPro;
+  text-align: center;
+  line-height: 30px;
+}
+
+.sedLabel {
+  position: absolute;
+  color: #FFFFFF;
+  left: 18px;
+  width: 180px;
+  font-size: 14px;
+}
+
+#sed1Label {
+  top: 100px;
+}
+
+#sed2Label {
+  top: 120px;
+}
+
+#sed3Label {
+  top: 140px;
+}
+
+#sed4Label {
+  top: 160px;
+}
+
+#sed1 {
+  position: absolute;
+  left: 0px;
+  top: 100px;
+}
+
+#sed2 {
+  position: absolute;
+  left: 0px;
+  top: 120px;
+}
+
+#sed3 {
+  position: absolute;
+  left: 0px;
+  top: 140px;
+}
+
+#sed4 {
+  position: absolute;
+  left: 0px;
+  top: 160px;
+}
+
+.label {
+  position: absolute;
+  color: #FFFFFF;
+  font-style: italic;
+  font-size: 12px;
+}
+
+#sedadla {
+  font-weight: bold;
+}
+
+#cena {
+  font-weight: bold;
+}
+
+#infoContainer {
+  position: fixed;
+  top: 35%;
+  font-size: 12px;
+  width: 220px;
+  color: #FFFFFF;
+  height: 250px;
+}
+
+#info {
+  position: relative;
+  height: 250px;
+}
+
+#podpora {
+  left: 620px;
+}
+
+#footer {
+  color: #330000;
+  font-family: Verdana;
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  font-size: 9px;
+  font-weight: bold;
+}
+
+#footer a {
+  text-decoration: none;
+  color: #330000;
+}
+
+#footer a:hover {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+#rezervovat {
+  position: absolute;
+  left: 165px;
+  top: 5px;
+  width: 100px;
+  border: 0;
+}
+
+#podminky {
+  position: absolute;
+  left: 310px;
+  top: 5px;
+  width: 100px;
+  border: 0;
+}
+
+#diskuze {
+  position: absolute;
+  left: 430px;
+  top: -5px;
+  width: 110px;
+  border: 0;
+}
+
+#kontakt {
+  position: absolute;
+  left: 607px;
+  top: 5px;
+  width: 110px;
+  border: 0;
+}
+
+#skeletons {
+  position: absolute;
+  left: 0px;
+  top: 30px;
+}
+
+#ples {
+  position: relative;
+}
+
+#plesContainer {
+  position: relative;
+  width: 560px;
+}
+
+.plesTitle {
+  color: #FFFFFF;
+  position: absolute;
+  left: 260px;
+  top: 40px;
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.home {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  width: 160px;
+  border: 0;
+}
+
+#plesHeader {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  border: 0;
+}
+
+#salCount {
+  font-size: 25px;
+  position: absolute;
+  font-family: MyriadPro;
+  text-align: center;
+  left: 191px;
+  top: -67px;
+  line-height: 30px;
+}
+
+#errorJmeno {
+  top: 135px;
+  left: 230px;
+}
+
+#errorPrijmeni {
+  top: 165px;
+  left: 230px;
+}
+
+#errorEmail {
+  top: 195px;
+  left: 230px;
+}
+
+.error {
+  display: none;
+  color: #FF0000;
+  position: absolute;
+}
+
+#startOrder {
+  position: absolute;
+  left: 0px;
+  top: 0;
+  cursor: pointer;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#platba {
+  position: absolute;
+  left: 7px;
+  top: 220px;
+  width: 156px;
+}
+
+#jmeno {
+  position: absolute;
+  top: 130px;
+  left: 7px;
+  height: 12px;
+  width: 200px;
+}
+
+#prijmeni {
+  position: absolute;
+  top: 160px;
+  left: 7px;
+  height: 12px;
+  width: 200px;
+}
+
+#email {
+  position: absolute;
+  top: 190px;
+  left: 7px;
+  height: 12px;
+  width: 200px;
+}
+
+.detailCode {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 16px;
+}
+
+.detailStoly {
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    font-size: 16px;
+}
+
+.detailPocet {
+    position: absolute;
+    top: 70px;
+    left: 10px;
+    font-size: 16px;
+}
+
+.detailCena {
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    font-size: 16px;
+}
+
+#details {
+  color: #FFFFFF;
+  height: 400px;
+  font-size: 12px;
+  display: none;
+  position: relative;
+  width: 700px;
+}
+
+#dalsiMista {
+  cursor: pointer;
+  position: absolute;
+  left: 450px;
+  bottom: 10px;
+}
+
+#finishOrder {
+  cursor: pointer;
+  position: absolute;
+  left: 451px;
+  bottom: 70px;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: museo_sans500, Helvetica, sans-serif;
+}
+
+.grey {
+    color: #383838;
+    font-family: MyriadPro;
+}
+
+.blue {
+    color: #3954A5;
+    font-family: MyriadPro;
+}
+
+body {
+    background: url("img/pozadi.jpg") 0 0  repeat;
+}
+
+#page {
+  margin: 0 auto;
+  width: 556px;
+}
+
+#content {
+  position: relative;
+  width: 556px;
+  margin-top: 50px;
+  min-height: 1435px;
+}
+
+.logo {
+    height: 438px;
+    background: url('images/header.png') 0 0 no-repeat;
+}
+
+.copyright{
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #3954A5;
+    font-size: 14px;
+}
+
+.orderbuton {
+  opacity: 0.8;
+  width: 160px;
+}	
+
+#spanCena, #spanPocet, #spanStoly, #spanCode {
+  color: #3954A5;
+}
+
+.sbInput {
+  padding: 5px;
+}
+
+.validace-obsah {
+    color: #000000;
+}
